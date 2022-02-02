@@ -10,7 +10,7 @@ def welcome_assignment_answers(question):
         "Is it possible to decode a message without a key? - Yes/No": "Yes",
         "Is a hashed message supposed to be un-hashed? - Yes/No": "No",
         "What is the MD5 hashing value to the following message: 'NYU Computer Networking'": "42b76fe51778764973077a5a94056724",
-        "Is MD5 a secured hashing algorithm? - Yes/No": "Yes",
+        "Is MD5 a secured hashing algorithm? - Yes/No": "No",
         "What layer from the TCP/IP model the protocol DHCP belongs to?": 7,
         "What layer of the TCP/IP model the protocol TCP belongs to?": 4
     }
