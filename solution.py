@@ -9,8 +9,8 @@ def welcome_assignment_answers(question):
         "Is it possible to decrypt a message without a key? - Yes/No": "No",
         "Is it possible to decode a message without a key? - Yes/No": "Yes",
         "Is a hashed message supposed to be un-hashed? - Yes/No": "No",
-        "What is the MD5 hashing value to the following message: 'NYU Computer Networking'": "42b76fe51778764973077a5a94056724",
-        "Is MD5 a secured hashing algorithm? - Yes/No": "Yes",
+        "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code": '42b76fe51778764973077a5a94056724',
+        "Is MD5 a secured hashing algorithm? - Yes/No": "No",
         "What layer from the TCP/IP model the protocol DHCP belongs to?": 7,
         "What layer of the TCP/IP model the protocol TCP belongs to?": 4
     }
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     print(welcome_assignment_answers(debug_question))
     debug_question = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
     print(welcome_assignment_answers(debug_question))
-    debug_question = "What is the MD5 hashing value to the following message: 'NYU Computer Networking'"
+    debug_question = "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code"
     print(welcome_assignment_answers(debug_question))
     debug_question = "What layer of the TCP/IP model the protocol TCP belongs to?"
     print(welcome_assignment_answers(debug_question))
